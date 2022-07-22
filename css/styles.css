@@ -3,197 +3,218 @@
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-}
-
-p {
+  }
+  
+  p {
   color: #8f8f8f;
   margin: 10px 0 20px;
   font-size: 20px;
-}
-
-/* Headers */
-
-h1, h2, h3, h5 {
+  }
+  
+  /* Headers */
+  
+  h1, h2, h3, h5 {
   font-weight: bold;
-}
-
-h3 {
+  }
+  
+  h3 {
   font-size: 1.5rem;
-}
-
-.big-white-header {
+  }
+  
+  .big-white-header {
   color: #fff;
   font-size: 3rem;
   line-height: 1.5;
-}
-
-.big-header {
+  }
+  
+  .big-header {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-/*  */
-
-em {
+  }
+  
+  /* */
+  
+  em {
   color: #fff;
-}
-
-/* Navigation bar (that is in section with id Title) */
-
-.navbar {
+  }
+  
+  /* Navigation bar (that is in section with id Title) */
+  
+  .navbar {
   background-color: rgba(255, 255, 255, 0.11);
   padding: 0 3%;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 2rem;
-}
-
-.nav-item {
+  }
+  
+  .nav-item {
   padding: 15px;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
   font-size: 1.1rem;
-}
-
-/* Title section */
-
-#title {
+  }
+  
+  /* Title section */
+  
+  #title {
   background-color: #fd3a73;
   text-align: left;
-}
-
-.title-section {
+  }
+  
+  .title-section {
   margin-bottom: 0px;
   padding: 9% 13% 14%;
-}
-
-.download-button {
+  }
+  
+  .download-button {
   margin: 5% 3% 5% 0;
-}
-
-.title-img {
+  }
+  
+  .title-img {
   transform: rotate(25deg);
   position: absolute;
-}
-
-/* Features section */
-
-#features {
+  }
+  
+  /* Features section */
+  
+  #features {
   background-color: #fff;
   position: relative;
   z-index: 2;
   padding: 7% 15%;
   position: relative;
-}
-
-.feature-box {
+  }
+  
+  .feature-box {
   padding: 3%;
-}
-
-.feature-box i {
+  }
+  
+  .feature-box i {
   color: #e96565;
   margin-bottom: 2rem;
-}
-
-.feature-box i:hover {
+  }
+  
+  .feature-box i:hover {
   color: #fd3a73;
-}
-
-/* Testimonials section */
-
-#testimonials {
+  }
+  
+  /* Testimonials section */
+  
+  #testimonials {
   background-color: #e96565;
-}
-
-.carousel-inner {
+  }
+  
+  .carousel-inner {
   height: 680px;
-}
-
-.carousel-item {
+  }
+  
+  .carousel-item {
   padding: 7% 15% 0;
-}
-
-.testimonial-img {
+  }
+  
+  .testimonial-img {
   width: 30%;
   margin: 25px;
-}
-
-
-/* Press section */
-
-#press {
+  }
+  
+  
+  /* Press section */
+  
+  #press {
   background-color: #e96565;
   padding: 2% 0 6%;
-}
-
-.press-logo {
+  }
+  
+  .press-logo {
   width: 15%;
   margin: 0 20px 0;
-}
-
-/* Pricing section */
-
-#pricing {
+  }
+  
+  /* Pricing section */
+  
+  #pricing {
   padding: 6% 10%;;
-}
-
-.card-button:hover {
+  }
+  
+  .card-button:hover {
   background-color: #fff;
   border-image: linear-gradient(to right, #fd3a73, #e96565) 1;
   color: #fd3a73;
-}
-
-/* Call to action */
-
-#cta {
+  }
+  
+  /* Call to action */
+  
+  #cta {
   background-color: #fd3a73;
   padding: 7% 10% 5%;
-}
-
-/* Footer */
-
-#footer {
+  }
+  
+  /* Footer */
+  
+  #footer {
   padding: 3% 0 1%;
-}
-
-/* Media queries */
-
-@media (max-width: 1070px) {
+  }
+  
+  #footer i {
+  color: black;
+  }
+  
+  #footer i:hover {
+  color: #fd3a73;
+  }
+  
+  /* Contact form */
+  
+  .contact-form {
+  padding: 7% 19%;
+  background-image: url(/images/contact-bck.png);
+  background-size: cover;
+  color: #fff;
+  }
+  
+  .submit-button:hover {
+  color: #fd3a73;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 1070px) {
   #title {
-    text-align: center;
+  text-align: center;
   }
-
+  
   .img-container {
-    width: 100%;
-    position: static;
+  width: 100%;
+  position: static;
   }
-
+  
   .title-img {
-    padding-top: 20px;
-    position: static;
-    transform: rotate(0);
+  padding-top: 20px;
+  position: static;
+  transform: rotate(0);
   }
-}
-
-/* Media queries */
-
-@media (max-width: 1070px) {
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 1070px) {
   #title {
-    text-align: center;
+  text-align: center;
   }
-
+  
   .img-container {
-    width: 100%;
-    position: static;
+  width: 100%;
+  position: static;
   }
-
+  
   .title-img {
-    padding-top: 20px;
-    position: static;
-    transform: rotate(0);
+  padding-top: 20px;
+  position: static;
+  transform: rotate(0);
   }
-}
+  }
