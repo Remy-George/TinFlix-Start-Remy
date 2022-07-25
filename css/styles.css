@@ -158,7 +158,8 @@ body {
   
   #footer {
   padding: 3% 0 1%;
-  }
+/* contact-page-link */
+}
   
   #footer i {
   color: black;
@@ -184,6 +185,7 @@ body {
   /* Media queries */
   
   @media (max-width: 1070px) {
+/* master */
   #title {
   text-align: center;
   }
